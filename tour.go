@@ -24,9 +24,9 @@ import (
 )
 
 var (
-	uiContent      []byte
-	lessons        = make(map[string][]byte)
-	lessonNotFound = fmt.Errorf("lesson not found")
+	uiContent         []byte
+	lessons           = make(map[string][]byte)
+	errLessonNotFound = fmt.Errorf("lesson not found")
 )
 
 // initTour loads tour.article and the relevant HTML templates from the given
@@ -188,7 +188,7 @@ func writeLesson(name string, w io.Writer) error {
 	}
 	l, ok := lessons[name]
 	if !ok {
-		return lessonNotFound
+		return errLessonNotFound
 	}
 	_, err := w.Write(l)
 	return err
