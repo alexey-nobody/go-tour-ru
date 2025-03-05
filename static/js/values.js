@@ -23,6 +23,11 @@ value('tableOfContents', [{
     'description': '<p>Learn how to define methods on types, how to declare interfaces, and how to put everything together.</p>',
     'lessons': ['methods']
 }, {
+    'id': 'generics',
+    'title': 'Generics',
+    'description': '<p>Learn how to use type parameters in Go functions and structs.</p>',
+    'lessons': ['generics']
+}, {
     'id': 'concurrency',
     'title': 'Concurrency',
     'description': '<p>Go provides concurrency features as part of the core language.</p><p>This module goes over goroutines and channels, and how they are used to implement different concurrency patterns.</p>',
@@ -122,36 +127,36 @@ value('mapping', {
     '#29': undefined, // The new function
     '#30': '/moretypes/6', // Arrays
     '#31': '/moretypes/7', // Slices
-    '#32': '/moretypes/8', // Slicing slices
-    '#33': '/moretypes/9', // Making slices
-    '#34': '/moretypes/10', // Nil slices
-    '#35': '/moretypes/12', // Range
-    '#36': '/moretypes/13', // Range continued
-    '#37': '/moretypes/14', // Exercise: Slices
-    '#38': '/moretypes/15', // Maps
-    '#39': '/moretypes/16', // Map literals
-    '#40': '/moretypes/17', // Map literals continued
-    '#41': '/moretypes/18', // Mutating Maps
-    '#42': '/moretypes/19', // Exercise: Maps
-    '#43': '/moretypes/20', // Function values
-    '#44': '/moretypes/21', // Function closures
-    '#45': '/moretypes/22', // Exercise: Fibonacci closure
+    '#32': undefined, // Slicing slices
+    '#33': undefined, // Making slices
+    '#34': '/moretypes/12', // Nil slices
+    '#35': '/moretypes/16', // Range
+    '#36': '/moretypes/17', // Range continued
+    '#37': '/moretypes/18', // Exercise: Slices
+    '#38': '/moretypes/19', // Maps
+    '#39': '/moretypes/20', // Map literals
+    '#40': '/moretypes/21', // Map literals continued
+    '#41': '/moretypes/22', // Mutating Maps
+    '#42': '/moretypes/23', // Exercise: Maps
+    '#43': '/moretypes/24', // Function values
+    '#44': '/moretypes/25', // Function closures
+    '#45': '/moretypes/26', // Exercise: Fibonacci closure
     '#46': '/flowcontrol/9', // Switch
     '#47': '/flowcontrol/10', // Switch evaluation order
     '#48': '/flowcontrol/11', // Switch with no condition
     '#49': undefined, // Advanced Exercise: Complex cube roots
     '#50': undefined, // Methods and Interfaces
     '#51': '/methods/1', // Methods
-    '#52': '/methods/2', // Methods continued
-    '#53': '/methods/3', // Methods with pointer receivers
-    '#54': '/methods/4', // Interfaces
-    '#55': '/methods/5', // Interfaces are satisfied implicitly
-    '#56': '/methods/8', // Errors
-    '#57': '/methods/9', // Exercise: Errors
-    '#58': '/methods/13', // Web servers
-    '#59': '/methods/14', // Exercise: HTTP Handlers
-    '#60': '/methods/15', // Images
-    '#61': '/methods/16', // Exercise: Images
+    '#52': '/methods/3', // Methods continued
+    '#53': undefined, // Methods with pointer receivers
+    '#54': '/methods/9', // Interfaces
+    '#55': undefined, // Interfaces are satisfied implicitly
+    '#56': '/methods/19', // Errors
+    '#57': '/methods/20', // Exercise: Errors
+    '#58': undefined, // Web servers
+    '#59': undefined, // Exercise: HTTP Handlers
+    '#60': '/methods/24', // Images
+    '#61': '/methods/25', // Exercise: Images
     '#62': undefined, // Exercise: Rot13 Reader
     '#63': undefined, // Concurrency
     '#64': '/concurrency/1', // Goroutines
@@ -159,9 +164,9 @@ value('mapping', {
     '#66': '/concurrency/3', // Buffered Channels
     '#67': '/concurrency/4', // Range and Close
     '#68': '/concurrency/5', // Select
-    '#69': '/concurrency/6', // Default Selection
-    '#70': '/concurrency/7', // Exercise: Equivalent Binary Trees
-    '#71': '/concurrency/8', // Exercise: Equivalent Binary Trees
-    '#72': '/concurrency/9', // Exercise: Web Crawler
-    '#73': '/concurrency/10', // Where to Go from here...
+    '#69': '/concurrency/6', // Default Selection multiple matches found for Exercise: Equivalent Binary Trees; find 'CHOOSE BETWEEN' in the output
+    '#70': '/concurrency/CHOOSE BETWEEN 7 8', // Exercise: Equivalent Binary Trees multiple matches found for Exercise: Equivalent Binary Trees; find 'CHOOSE BETWEEN' in the output
+    '#71': '/concurrency/CHOOSE BETWEEN 7 8', // Exercise: Equivalent Binary Trees
+    '#72': '/concurrency/10', // Exercise: Web Crawler
+    '#73': '/concurrency/11', // Where to Go from here...
 });
