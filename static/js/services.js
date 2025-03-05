@@ -62,7 +62,10 @@ factory('run', ['$window', 'editor',
                     '-- go.mod --\n' +
                     'module example\n' +
                     'go 1.24.1\n' +
-                    'require golang.org/x/tour v0.1.0';
+                    'require golang.org/x/tour v0.1.0\n' +
+                    '-- go.sum --\n' +
+                    'golang.org/x/tour v0.1.0 h1:OWzbINRoGf1wwBhKdFDpYwM88NM0d1SL/Nj6PagS6YE=\n' +
+                    'golang.org/x/tour v0.1.0/go.mod h1:DUZC6G8mR1AXgXy73r8qt/G5RsefKIlSj6jBMc8b9Wc=';
             }
 
             // PlaygroundOutput is defined in playground.js which is prepended
