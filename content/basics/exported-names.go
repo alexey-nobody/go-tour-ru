@@ -1,10 +1,9 @@
-// +build no-build OMIT
+//go:build nobuild || OMIT
 
 package main
 
 import (
 	"fmt"
-	"math"
 )
 
 func main() {
