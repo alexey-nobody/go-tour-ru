@@ -9,28 +9,28 @@ angular.module('tour.values', []).
 // List of modules with description and lessons in it.
 value('tableOfContents', [{
     'id': 'mechanics',
-    'title': 'Using the tour',
-    'description': '<p>Welcome to a tour of the <a href="https://golang.org">Go programming language</a>. The tour covers the most important features of the language, mainly:</p>',
+    'title': 'Использование тура',  
+    'description': '<p>Добро пожаловать в тур по <a href="https://golang.org">языку программирования Go</a>.</p>',  
     'lessons': ['welcome']
 }, {
     'id': 'basics',
-    'title': 'Basics',
-    'description': '<p>The starting point, learn all the basics of the language.</p><p>Declaring variables, calling functions, and all the things you need to know before moving to the next lessons.</p>',
+    'title': 'Основы',
+    'description': '<p>Начальная точка, изучите все основы языка.</p><p>Объявление переменных, вызов функций и всё, что вам нужно знать перед переходом к следующим урокам.</p>',
     'lessons': ['basics', 'flowcontrol', 'moretypes']
 }, {
     'id': 'methods',
-    'title': 'Methods and interfaces',
-    'description': '<p>Learn how to define methods on types, how to declare interfaces, and how to put everything together.</p>',
+    'title': 'Методы и интерфейсы',
+    'description': '<p>Узнайте, как определять методы для типов, как объявлять интерфейсы и как всё это объединить.</p>',
     'lessons': ['methods']
 }, {
     'id': 'generics',
-    'title': 'Generics',
-    'description': '<p>Learn how to use type parameters in Go functions and structs.</p>',
+    'title': 'Дженерики',
+    'description': '<p>Узнайте, как использовать параметры типов в функциях и структурах Go.</p>',
     'lessons': ['generics']
 }, {
     'id': 'concurrency',
-    'title': 'Concurrency',
-    'description': '<p>Go provides concurrency features as part of the core language.</p><p>This module goes over goroutines and channels, and how they are used to implement different concurrency patterns.</p>',
+    'title': 'Параллелизм',
+    'description': '<p>Go предоставляет возможности параллелизма как часть основного языка.</p><p>Этот модуль рассматривает горутины и каналы, а также то, как они используются для реализации различных паттернов параллелизма.</p>',
     'lessons': ['concurrency']
 }]).
 
