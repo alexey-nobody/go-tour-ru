@@ -1,65 +1,52 @@
-# Go Tour
+# Go Tour на русском
 
-[![Go Reference](https://pkg.go.dev/badge/golang.org/x/tour.svg)](https://pkg.go.dev/golang.org/x/tour)
+Go Tour — это интерактивное введение в язык программирования Go. Вы можете посетить
+https://tour.golang.org, чтобы начать тур онлайн.
 
-A Tour of Go is an introduction to the Go programming language. Visit
-https://tour.golang.org to start the tour.
+## Установка
 
-## Download/Install
+### Предварительные требования
 
-To install the tour from source, first
-[install Go](https://golang.org/doc/install) and then run:
+Перед установкой Go Tour вам необходимо:
+1. [Установить Go](https://golang.org/doc/install) на вашу систему
+2. Убедиться, что переменные окружения `GOPATH` и `GOBIN` настроены правильно
 
-	$ go get golang.org/x/tour
+### Клонирование репозитория
 
-This will place a `tour` binary in your
-[workspace](https://golang.org/doc/code.html#Workspaces)'s `bin` directory.
-The tour program can be run offline.
+Чтобы скачать Go Tour, выполните следующие команды:
 
-## Contributing
+```sh
+git clone git@github.com:alexey-nobody/go-tour-ru.git
+cd go-tour-ru
+```
 
-Contributions should follow the same procedure as for the Go project:
-https://golang.org/doc/contribute.html
+## Запуск Go Tour
 
-To run the tour server locally:
+Для запуска Go Tour из исходного кода, перейдите в директорию проекта и выполните:
 
 ```sh
 go run .
 ```
 
-Your browser should now open. If not, please visit [http://localhost:3999/](http://localhost:3999).
+После запуска ваш браузер должен автоматически открыться. Если этого не произошло, посетите [http://localhost:3999/](http://localhost:3999) вручную.
 
+## Использование в офлайн-режиме
 
-## Report Issues / Send Patches
+Go Tour можно использовать без подключения к интернету. Все необходимые файлы будут доступны локально после клонирования репозитория.
 
-This repository uses Gerrit for code changes. To learn how to submit changes to
-this repository, see https://golang.org/doc/contribute.html.
+## Вклад в проект
 
-The issue tracker for the tour's code is located at https://github.com/golang/go/issues.
-Prefix your issue with "x/tour:" in the subject line, so it is easy to find.
+Если вы хотите внести свой вклад в проект, следуйте этим шагам:
 
-Issues with the tour's content itself should be reported in the issue tracker
-at https://github.com/golang/tour/issues.
+1. Создайте форк (fork) репозитория на GitHub
+3. Создайте новую ветку для ваших изменений
+4. Внесите необходимые изменения
+5. Отправьте изменения в ваш форк на GitHub
+6. Откройте Pull Request (PR) в основной репозиторий
 
-## Deploying
+Мы рассмотрим ваш PR и при необходимости предложим правки или улучшения перед слиянием.
 
-1.	To deploy tour.golang.org, run:
+## Лицензия
 
-	```
-	GO111MODULE=on gcloud --project=golang-org app deploy --no-promote app.yaml
-	```
-
-	This will create a new version, which can be viewed within the
-	[golang-org GCP project](https://console.cloud.google.com/appengine/versions?project=golang-org&serviceId=tour).
-
-2.	Check that the deployed version looks OK (click the version link in GCP).
-
-3.	If all is well, click "Migrate Traffic" to move 100% of the tour.golang.org
-	traffic to the new version.
-
-4.	You're done.
-
-## License
-
-Unless otherwise noted, the go-tour source files are distributed
-under the BSD-style license found in the LICENSE file.
+Если не указано иное, исходные файлы go-tour-ru распространяются
+под лицензией в стиле BSD, которую можно найти в файле LICENSE.
